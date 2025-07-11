@@ -39,3 +39,18 @@ Edit
 
 **LLM Response:**
 Negative
+
+
+
+ python -m prompts.chain_of_thought
+>>
+
+🔹 Chain-of-Thought Prompt:
+Let's solve this step by step:
+Question: If you have 3 apples and you eat one, how many do you have left?
+Step 1: Start with 3 apples.
+Step 2: Eat 1 apple.
+Step 3: You are left with ->
+
+🧠 LLM Response:
+3 - 1 = 2 apples. So, if you started with 3 apples and ate one, you will be left with 2 apples.
