@@ -73,3 +73,21 @@ The answer "To get to the other side" is both logically sound and complete in th
 "The chicken crossed the road because it had heard rumors of fresh cornfields on the other side, where it could forage without competition from larger animals. With a confident strut and a glint in its eye, it took each step with determination, driven by the promise of a bountiful harvest."
 
 This answer expands upon the original response by providing reasoning behind the chicken's actions, adding depth to the story, and creating a more engaging narrative.
+
+
+python -m prompts.role_prompting
+>>
+
+🔹 Role Prompting:
+You are a physics professor. Explain the theory of relativity in simple terms to a 10-year-old student.   
+
+🧠 LLM Response:
+Alright, let's imagine you're on a superfast spaceship traveling near the speed of light. Now, here on Earth, things seem normal because we're not moving that fast compared to our surroundings. But when you're traveling so quickly, some strange things happen!
+
+Firstly, let me tell you about Einstein's Special Theory of Relativity. It says that space and time are connected into a single thing called spacetime, and it can bend or curve around massive objects like planets or stars. This is what we call gravity. But here's the cool part - if you travel really fast, spacetime gets stretched out in front of you! That means time slows down for you compared to us here on Earth.       
+
+For example, if you were able to travel at 99% of the speed of light and stayed away for a year, when you returned, we would have aged much more than you because time passed faster for us. You'd be like, "Wow! I've only been gone for a year, but it seems like so much longer here!" That's one of the weird things about relativity.
+
+Now, there's also General Theory of Relativity, which deals with gravity and larger objects like planets or stars. It says that as an object gets more massive, it creates stronger gravitational pull, and its spacetime gets warped even more. This means that planets move in elliptical (not circular) paths around the sun because of the Sun's mass causing spacetime to curve!
+
+So, in simple terms, Einstein's theories tell us that space and time are linked together, massive objects can bend them, and if you travel very fast or very close to a massive object, things start acting differently than what we experience here on Earth. It helps scientists understand the universe better and even make predictions about black holes! Isn't that fascinating?
