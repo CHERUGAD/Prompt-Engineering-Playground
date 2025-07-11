@@ -54,3 +54,22 @@ Step 3: You are left with ->
 
 🧠 LLM Response:
 3 - 1 = 2 apples. So, if you started with 3 apples and ate one, you will be left with 2 apples.
+
+
+
+python -m prompts.reflection
+>>
+
+🔹 Reflection Prompt:
+Why did the chicken cross the road?
+
+Answer: To get to the other side.
+
+Now reflect on whether this answer is logically sound and complete. Suggest how it could be improved if necessary.
+
+🧠 LLM Response:
+The answer "To get to the other side" is both logically sound and complete in the context of a classic joke or riddle about a chicken crossing a road. However, if we consider a more detailed or imaginative response for creative writing, the answer could be:
+
+"The chicken crossed the road because it had heard rumors of fresh cornfields on the other side, where it could forage without competition from larger animals. With a confident strut and a glint in its eye, it took each step with determination, driven by the promise of a bountiful harvest."
+
+This answer expands upon the original response by providing reasoning behind the chicken's actions, adding depth to the story, and creating a more engaging narrative.
