@@ -100,3 +100,98 @@ Assistant: Let's use the calculator to compute sqrt(144). The answer is 12.
 
 🧠 LLM Response:
 The square root of 144 is 12.
+
+
+ python -m scripts.run_all
+>>
+
+==============================
+🧪 Running All Prompt Examples
+==============================
+
+
+🔹 Zero-Shot Prompt:
+My name is Ravikiran
+
+🧠 LLM Response:
+Hello Ravikiran, it's nice to meet you! How can I help you today? If you have any questions or need assistance with something, feel free to ask. I'm here to help!
+
+------------------------------
+
+
+🔹 Few-Shot Prompt:
+Classify the sentiment of the following sentences as Positive or Negative:
+
+1. I absolutely loved the new Batman movie. -> Positive
+2. The weather today is terrible and ruined my plans. -> Negative
+3. This laptop works incredibly fast and looks sleek. -> Positive
+4. I had to wait 30 minutes for my food and it was cold. ->
+
+🧠 LLM Response:
+Negative
+
+------------------------------
+
+
+🔹 Chain-of-Thought Prompt:
+Let's solve this step by step:
+Question: If you have 3 apples and you eat one, how many do you have left?
+Step 1: Start with 3 apples.
+Step 2: Eat 1 apple.
+Step 3: You are left with ->
+
+🧠 LLM Response:
+3 - 1 = 2 apples left.
+
+------------------------------
+
+
+🔹 Reflection Prompt:
+Why did the chicken cross the road?
+
+Answer: To get to the other side.
+
+Now reflect on whether this answer is logically sound and complete. Suggest how it could be improved if necessary.
+
+🧠 LLM Response:
+The given answer, "To get to the other side," is both logical and complete within the context of a classic joke or riddle. However, if we were to expand upon it for a more detailed response, we might consider addressing the chicken's motivation or reason behind crossing the road. This could result in a more engaging and imaginative answer:
+
+"To get to the other side, because there was an inviting farmstand waiting with fresh greens, ripe berries, and tasty insects."
+
+This expanded answer not only satisfies the original requirement but also provides a touch of whimsy by suggesting that the chicken had a purpose beyond simply crossing the road.
+
+------------------------------
+
+
+🔹 Role Prompting:
+You are a physics professor. Explain the theory of relativity in simple terms to a 10-year-old student.   
+
+🧠 LLM Response:
+Hello there! Let's talk about the Theory of Relativity. The Theory of Relativity was created by a smart man named Albert Einstein. It has two main parts: Special Relativity and General Relativity.
+
+Special Relativity is all about how things move really, really fast, like when a rocket goes into space. You see, there's something called the speed of light. No matter what or who tries to go faster than this speed of light, it just can't!
+
+Now here comes something cool: if a spaceship were moving so fast that it came close to the speed of light, time would start to slow down inside the ship for anyone on board. It's as if time was stretched out compared to people standing still on Earth. That's mind-bending, isn't it?
+
+General Relativity is a bit more complex because it talks about gravity. You know when you drop something, it falls towards the ground because of gravity, right? Well, Einstein said that gravity is not just a force pulling things together, but actually the curve of space itself! This means if you were in a spaceship and flew really close to a big planet like Earth, the spaceship would start to bend and curve around the Earth!
+
+So, the Theory of Relativity helps us understand how very fast things move and how gravity works. It's all about how space and time work together. Aren't the mysteries of the universe fascinating?
+
+------------------------------
+
+
+🔹 Tool Use Prompt:
+You are a helpful assistant. You have access to a calculator.
+User: What is the square root of 144?
+Assistant: Let's use the calculator to compute sqrt(144). The answer is 12.
+
+🧠 LLM Response:
+That's correct! The square root of 144 is indeed 12. I hope this helps! If you have any other math or general questions, feel free to ask!
+
+By the way, if you want to find square roots without a calculator, here's a quick trick for perfect squares under 50:
+1, 4, 9, 16, 25, 36, 49, 64, 81.
+Just try to take the middle number of each pair and see if it squares with any other number on the list! It's a fun mental exercise for numbers under 25.
+
+==============================
+✅ All prompts executed!
+==============================
