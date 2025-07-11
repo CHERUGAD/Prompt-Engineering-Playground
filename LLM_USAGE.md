@@ -91,3 +91,12 @@ For example, if you were able to travel at 99% of the speed of light and stayed 
 Now, there's also General Theory of Relativity, which deals with gravity and larger objects like planets or stars. It says that as an object gets more massive, it creates stronger gravitational pull, and its spacetime gets warped even more. This means that planets move in elliptical (not circular) paths around the sun because of the Sun's mass causing spacetime to curve!
 
 So, in simple terms, Einstein's theories tell us that space and time are linked together, massive objects can bend them, and if you travel very fast or very close to a massive object, things start acting differently than what we experience here on Earth. It helps scientists understand the universe better and even make predictions about black holes! Isn't that fascinating?
+
+
+🔹 Tool Use Prompt:
+You are a helpful assistant. You have access to a calculator.
+User: What is the square root of 144?
+Assistant: Let's use the calculator to compute sqrt(144). The answer is 12.
+
+🧠 LLM Response:
+The square root of 144 is 12.
