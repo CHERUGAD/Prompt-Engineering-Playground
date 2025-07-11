@@ -19,3 +19,23 @@ My name is Ravikiran
 🧠 LLM Response:
 Hello Ravikiran! It's nice to meet you. How can I assist you today? If you have any questions or need help with something, feel free to ask. I am here to help!
 
+
+## 🧪 Sample Inference (Few-Shot)
+
+**Prompt:**
+Classify the sentiment of the following sentences as Positive or Negative:
+
+I absolutely loved the new Batman movie. -> Positive
+
+The weather today is terrible and ruined my plans. -> Negative
+
+This laptop works incredibly fast and looks sleek. -> Positive
+
+I had to wait 30 minutes for my food and it was cold. ->
+
+markdown
+Copy
+Edit
+
+**LLM Response:**
+Negative
